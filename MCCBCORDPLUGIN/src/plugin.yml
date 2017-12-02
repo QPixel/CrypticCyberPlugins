@@ -1,0 +1,4 @@
+name: TestPlugin
+main: com.qpixelgfx.plugins.MCCBCORDP.MainPlugin
+version: 1.0
+author: username
