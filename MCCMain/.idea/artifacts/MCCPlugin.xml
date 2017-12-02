@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MCCPlugin">
+    <output-path>$PROJECT_DIR$/out/artifacts/MCCPlugin</output-path>
+    <root id="archive" name="MCCPlugin.jar">
+      <element id="module-output" name="MCCMain" />
+    </root>
+  </artifact>
+</component>

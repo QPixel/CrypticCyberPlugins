@@ -1,0 +1,9 @@
+name: MCCMainFrame
+main: MCCMF.Main.Main
+version: 1.0
+author:
+
+commands:
+     giveitem:
+          usage:/<command>
+          description: giveitem command
