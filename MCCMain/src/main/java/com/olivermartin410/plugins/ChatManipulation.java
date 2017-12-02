@@ -1,5 +1,6 @@
 package com.olivermartin410.plugins;
 
+import MCCMF.Main.MultiChat;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 
 public class ChatManipulation
@@ -95,7 +96,7 @@ public class ChatManipulation
 		MessageFormat = MessageFormat.replace("%NAME%", playername);
 		MessageFormat = MessageFormat.replace("%SERVER%", server);
 		MessageFormat = MessageFormat.replace("%MESSAGE%", Message);
-		MessageFormat = MessageFormat.replace("%CC%", "&" + ((TChatInfo)MultiChat.modchatpreferences.get(target.getUniqueId())).getChatColor());
+		MessageFormat = MessageFormat.replace("%CC%", "&" + ((TChatInfo) MultiChat.modchatpreferences.get(target.getUniqueId())).getChatColor());
 		MessageFormat = MessageFormat.replace("%NC%", "&" + ((TChatInfo)MultiChat.modchatpreferences.get(target.getUniqueId())).getNameColor());
 
 		return MessageFormat;

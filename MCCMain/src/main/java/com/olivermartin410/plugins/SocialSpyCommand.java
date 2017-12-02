@@ -1,5 +1,6 @@
 package com.olivermartin410.plugins;
 
+import MCCMF.Main.MultiChat;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.chat.ComponentBuilder;
@@ -9,7 +10,7 @@ import net.md_5.bungee.api.plugin.Command;
 public class SocialSpyCommand
   extends Command
 {
-  static String[] aliases = (String[])MultiChat.configman.config.getStringList("socialspycommand").toArray(new String[0]);
+  static String[] aliases = (String[]) MultiChat.configman.config.getStringList("socialspycommand").toArray(new String[0]);
   
   public SocialSpyCommand()
   {

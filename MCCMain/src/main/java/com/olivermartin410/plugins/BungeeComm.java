@@ -6,6 +6,7 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
+import MCCMF.Main.MultiChat;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.config.ServerInfo;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
@@ -55,8 +56,8 @@ implements Listener
 				ProxiedPlayer player = ProxyServer.getInstance().getPlayer(playername);
 				synchronized (player) {
 					if (MultiChat.configman.config.getBoolean("fetch_spigot_display_names") == true && player != null) {
-						//player.setDisplayName(playerdisplayname.replaceAll("&", "§"));
-						player.setDisplayName(playerdisplayname.replaceAll("&(?=[a-f,0-9,k-o,r])", "§"));
+						//player.setDisplayName(playerdisplayname.replaceAll("&", "ï¿½"));
+						player.setDisplayName(playerdisplayname.replaceAll("&(?=[a-f,0-9,k-o,r])", "ï¿½"));
 					}
 				}
 			}

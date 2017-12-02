@@ -1,5 +1,7 @@
 package com.olivermartin410.plugins;
 
+import MCCMF.Main.MultiChat;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

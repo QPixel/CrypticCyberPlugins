@@ -1,7 +1,8 @@
-package com.olivermartin410.plugins;
+package MCCMF.Main;
 import java.util.NoSuchElementException;
 import java.util.Optional;
 
+import MCCMF.Commands.SpongeComm;
 import org.spongepowered.api.Platform;
 import org.spongepowered.api.Sponge;
 import org.spongepowered.api.entity.living.player.Player;

@@ -1,6 +1,7 @@
 package MCCMF.Commands;
 
 import net.md_5.bungee.api.ChatColor;
+
 import net.minecraft.server.v1_12_R1.CommandExecute;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

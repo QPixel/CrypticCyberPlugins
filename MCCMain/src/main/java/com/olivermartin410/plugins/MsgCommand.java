@@ -3,6 +3,7 @@ package com.olivermartin410.plugins;
 import java.util.HashSet;
 import java.util.Set;
 
+import MCCMF.Main.MultiChat;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.ProxyServer;
@@ -15,7 +16,7 @@ import net.md_5.bungee.api.plugin.TabExecutor;
 public class MsgCommand
 extends Command implements TabExecutor
 {
-	static String[] aliases = (String[])MultiChat.configman.config.getStringList("msgcommand").toArray(new String[0]);
+	static String[] aliases = (String[]) MultiChat.configman.config.getStringList("msgcommand").toArray(new String[0]);
 
 	public MsgCommand()
 	{

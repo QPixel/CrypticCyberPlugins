@@ -2,6 +2,7 @@ package com.olivermartin410.plugins;
 
 import java.util.UUID;
 
+import MCCMF.Main.MultiChat;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.chat.ComponentBuilder;

@@ -1,6 +1,8 @@
 package com.olivermartin410.plugins;
 
 import java.util.UUID;
+
+import MCCMF.Main.MultiChat;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.ProxyServer;
@@ -12,7 +14,7 @@ import net.md_5.bungee.api.plugin.Command;
 public class ReplyCommand
   extends Command
 {
-  static String[] aliases = (String[])MultiChat.configman.config.getStringList("rcommand").toArray(new String[0]);
+  static String[] aliases = (String[]) MultiChat.configman.config.getStringList("rcommand").toArray(new String[0]);
   
   public ReplyCommand()
   {

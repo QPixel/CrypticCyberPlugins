@@ -1,7 +1,7 @@
 package MCCMF.Commands;
 
 import com.olivermartin410.plugins.GroupManager;
-import com.olivermartin410.plugins.MultiChat;
+import MCCMF.Main.MultiChat;
 import com.olivermartin410.plugins.TGroupChatInfo;
 import com.olivermartin410.plugins.UUIDNameManager;
 import net.md_5.bungee.api.ChatColor;
@@ -326,7 +326,7 @@ extends Command implements TabExecutor
 						if (chatinfo.getAdmins().contains(player.getUniqueId()))
 						{
 							for (ProxiedPlayer onlineplayer : ProxyServer.getInstance().getPlayers()) {
-								if ((MultiChat.viewedchats.get(onlineplayer.getUniqueId()) != null) && 
+								if ((MultiChat.viewedchats.get(onlineplayer.getUniqueId()) != null) &&
 										(((String)MultiChat.viewedchats.get(onlineplayer.getUniqueId())).toLowerCase().equals(chatinfo.getName().toLowerCase())))
 								{
 									MultiChat.viewedchats.remove(onlineplayer.getUniqueId());
@@ -349,7 +349,7 @@ extends Command implements TabExecutor
 					}
 				}
 				break;
-			case 3: 
+			case 3:
 				if ((!args[0].toLowerCase().equals("create")) && (!args[0].toLowerCase().equals("make")) && (!args[0].toLowerCase().equals("join")) && (!args[0].toLowerCase().equals("transfer")) && (!args[0].toLowerCase().equals("admin")) && (!args[0].toLowerCase().equals("addadmin")) && (!args[0].toLowerCase().equals("removeadmin")) && (!args[0].toLowerCase().equals("ban"))) {
 					sender.sendMessage(new ComponentBuilder("Incorrect command usage, use /group to see a list of commands!").color(ChatColor.RED).create());
 				}
@@ -399,7 +399,7 @@ extends Command implements TabExecutor
 							sender.sendMessage(new ComponentBuilder("You successfully joined and selected the group: " + args[1].toUpperCase()).color(ChatColor.GREEN).create());
 							//Announce their join
 							groupman.announceJoinGroup(player.getName(), args[1]);
-						}   
+						}
 					}
 					else
 					{

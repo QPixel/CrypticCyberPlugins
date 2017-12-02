@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
+import MCCMF.Main.MultiChat;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.chat.BaseComponent;
@@ -358,7 +359,7 @@ public class ChatStream {
 	{
 		String colour = startColour;
 		char previouschar = ' ';
-		String EditMessage = OriginalMessage.replaceAll("§", "&");
+		String EditMessage = OriginalMessage.replaceAll("ï¿½", "&");
 		OriginalMessage = "";
 		for (int i = 0; i <= EditMessage.length() - 1; i++) {
 			if (i != EditMessage.length() - 1)

@@ -1,6 +1,6 @@
 package MCCMF.Commands;
 
-import com.olivermartin410.plugins.MultiChat;
+import MCCMF.Main.MultiChat;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.chat.ComponentBuilder;

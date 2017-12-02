@@ -67,5 +67,10 @@
         <artifactId>VaultAPI</artifactId>
         <version>1.6</version>
         </dependency>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot</artifactId>
+            <version>1.12.2-R0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>

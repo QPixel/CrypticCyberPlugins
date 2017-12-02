@@ -1,5 +1,6 @@
 package com.olivermartin410.plugins;
 
+import MCCMF.Main.MultiChat;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.chat.ComponentBuilder;
@@ -36,7 +37,7 @@ public class UseCastCommand extends Command {
 				}
 			}
 			
-			CastControl.sendCast(args[0],Message,MultiChat.globalChat);
+			CastControl.sendCast(args[0],Message, MultiChat.globalChat);
 			
 		} else {
 			sender.sendMessage(new ComponentBuilder("Sorry, no such cast found: " + args[0].toUpperCase()).color(ChatColor.RED).create());

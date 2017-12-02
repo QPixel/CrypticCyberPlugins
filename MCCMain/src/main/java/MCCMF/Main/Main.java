@@ -1,6 +1,6 @@
 package MCCMF.Main;
 
-import MCCMF.Commands;
+import MCCMF.Commands.Commands;
 import MCCMF.Events.EventsClass;
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.event.Listener;

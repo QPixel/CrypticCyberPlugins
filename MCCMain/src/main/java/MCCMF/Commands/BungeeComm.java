@@ -1,6 +1,6 @@
 package MCCMF.Commands;
 
-import com.olivermartin410.plugins.MultiChat;
+import MCCMF.Main.MultiChat;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.config.ServerInfo;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
