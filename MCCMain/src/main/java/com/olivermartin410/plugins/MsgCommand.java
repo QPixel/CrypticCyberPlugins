@@ -3,7 +3,8 @@ package com.olivermartin410.plugins;
 import java.util.HashSet;
 import java.util.Set;
 
-import MCCMF.Main.MultiChat;
+import MCCMF.MultiChatLink.Events;
+import MCCMF.MultiChatLink.MultiChat;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.ProxyServer;

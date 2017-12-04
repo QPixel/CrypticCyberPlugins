@@ -1,5 +1,6 @@
 package com.olivermartin410.plugins;
 
+import MCCMF.MultiChatLink.Events;
 import net.md_5.bungee.api.plugin.Command;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.CommandSender;

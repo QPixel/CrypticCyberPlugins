@@ -1,6 +1,6 @@
 package com.olivermartin410.plugins;
 
-import MCCMF.Main.MultiChat;
+import MCCMF.MultiChatLink.MultiChat;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.ProxyServer;
