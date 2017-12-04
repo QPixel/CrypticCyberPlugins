@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="855b54c3-9996-4948-9eb7-24cbd8faaa1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MultiChat/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MultiChat/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MultiChat/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MultiChat/MultiChat.iml" afterPath="$PROJECT_DIR$/../MultiChat/MultiChat.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MultiChat/pom.xml" afterPath="$PROJECT_DIR$/../MultiChat/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -165,8 +162,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="384" />
-    <option name="y" value="346" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="384" />
     <option name="height" value="346" />
   </component>

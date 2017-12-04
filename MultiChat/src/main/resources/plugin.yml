@@ -1,0 +1,16 @@
+name: MultiChatBridge
+version: 1.5
+author: Revilo410
+main: com.olivermartin410.plugins.SpigotComm
+softdepend: [Vault]
+commands:
+   nick:
+      description: Gives a player a nickname
+      usage: /nick [player] <nickname / off>
+      permission: multichatbridge.nick.self
+      permission-message: You do not have permission (multichatbridge.nick.self / multichatbridge.nick.others)
+   realname:
+      description: Gets the real name of a player from a nickname
+      usage: /realname <nickname>
+      permission: multichatbridge.realname
+      permission-message: You do not have permission (multichatbridge.realname)
