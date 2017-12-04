@@ -1,12 +1,12 @@
-package com.olivermartin410.plugins;
+package MCCMF.MultiChatLink;
 
-import java.util.UUID;
-
-import MCCMF.MultiChatLink.MultiChat;
+import com.olivermartin410.plugins.GCCommand;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.chat.ComponentBuilder;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
+
+import java.util.UUID;
 
 public class GroupManager {
 
@@ -23,7 +23,7 @@ public class GroupManager {
 		 */
 		
 		 TGroupChatInfo newgroup = new TGroupChatInfo();
-		 
+
 		 newgroup.addMember(owneruuid);
 		 newgroup.addViewer(owneruuid);
 		 newgroup.addAdmin(owneruuid);
@@ -33,25 +33,25 @@ public class GroupManager {
 		 newgroup.setSecret(secret);
 		 newgroup.setPassword(password);
 		 newgroup.setFormal(false);
-		 
+
 		 MultiChat.groupchats.put(groupname.toLowerCase(), newgroup);
-		
+
 	}
-	
+
 	public boolean joinGroup(String groupname, ProxiedPlayer player, String password) {
-		
+
 		/**
 		 * Adds a player to a group chat while removing them from the spy list if they were spying on it before
 		 * This will also check if they are banned and stop them being added
 		 * It will also check if they are already a member
 		 * Passwords for the group are also checked
 		 */
-		
+
 		boolean success = false;
-		
+
 		TGroupChatInfo groupchat = new TGroupChatInfo();
         groupchat = (TGroupChatInfo)MultiChat.groupchats.get(groupname.toLowerCase());
-        
+
         if (!groupchat.existsBanned(player.getUniqueId()))
         {
           if (!groupchat.existsMember(player.getUniqueId()))
@@ -71,10 +71,10 @@ public class GroupManager {
               }
               groupchat.addMember(player.getUniqueId());
               groupchat.addViewer(player.getUniqueId());
-              
+
               MultiChat.groupchats.remove(groupname.toLowerCase());
               MultiChat.groupchats.put(groupname.toLowerCase(), groupchat);
-              
+
               success = true;
             }
             else
@@ -82,7 +82,7 @@ public class GroupManager {
             	if (password.equals("")) {
               player.sendMessage(new ComponentBuilder("Sorry this group chat is password protected: " + groupname.toUpperCase()).color(ChatColor.RED).create());
             	} else {
-            		
+
             		if (password.equals(groupchat.getPassword())) {
             		if (groupchat.existsViewer(player.getUniqueId())) {
                         if (player.hasPermission("multichat.staff.spy"))
@@ -97,18 +97,18 @@ public class GroupManager {
                       }
                       groupchat.addMember(player.getUniqueId());
                       groupchat.addViewer(player.getUniqueId());
-                      
+
                       MultiChat.groupchats.remove(groupname.toLowerCase());
                       MultiChat.groupchats.put(groupname.toLowerCase(), groupchat);
-                      
+
                       success = true;
-                      
+
             		} else {
-            			
+
             			player.sendMessage(new ComponentBuilder("Sorry incorrect password for: " + groupname.toUpperCase()).color(ChatColor.RED).create());
-            			
+
             		}
-            		
+
             	}
             }
           }
@@ -120,51 +120,51 @@ public class GroupManager {
           player.sendMessage(new ComponentBuilder("Sorry you are banned from the group: " + groupname.toUpperCase()).color(ChatColor.RED).create());
         }
         groupchat = null;
-        
+
         return success;
-        
+
       }
 
 	public void setViewedChat(UUID playeruuid, String groupname) {
-		
+
 		/**
 		 * Sets the selected group of a player to the specified group
 		 */
-		
+
 		String viewedchat = (String)MultiChat.viewedchats.get(playeruuid);
-         
+
         viewedchat = groupname.toLowerCase();
         MultiChat.viewedchats.remove(playeruuid);
         MultiChat.viewedchats.put(playeruuid, viewedchat);
-		
+
 	}
-	
+
 	public void announceJoinGroup(String playername, String groupname) {
-		
+
 		/**
 		 * The INFO announce in a group that a player has joined
 		 */
-		
+
 		 GCCommand.chatMessage(playername + " has joined the group chat!", "&lINFO", MultiChat.groupchats.get(groupname.toLowerCase()));
-		
+
 	}
-	
+
 	public void announceQuitGroup(String playername, String groupname) {
-		
+
 		/**
 		 * The INFO announce in a group that a player has left
 		 */
-		
+
 		 GCCommand.chatMessage(playername + " has left the group chat!", "&lINFO", MultiChat.groupchats.get(groupname.toLowerCase()));
-		
+
 	}
-	
+
 	public void quitGroup(String groupname, UUID player, ProxiedPlayer pinstance) {
-		
+
 		/**
 		 * Quits a group, announces in the group chat and notifies the player quitting
 		 */
-		
+
 		TGroupChatInfo groupchatinfo = new TGroupChatInfo();
         String viewedchat = (String)MultiChat.viewedchats.get(player);
         

@@ -1,17 +1,12 @@
-package com.olivermartin410.plugins;
+package MCCMF.MultiChatLink;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.UUID;
-
-import MCCMF.MultiChatLink.MultiChat;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.chat.BaseComponent;
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
+
+import java.util.*;
 
 public class ChatStream {
 
@@ -24,9 +19,9 @@ public class ChatStream {
 	protected String name;
 	protected String format;
 
-	public static Map<UUID,ChatStream> currentStreams = new HashMap<UUID,ChatStream>();
+	public static Map<UUID, ChatStream> currentStreams = new HashMap<UUID, ChatStream>();
 
-	public static void setStream (UUID uuid,ChatStream stream) {
+	public static void setStream (UUID uuid, ChatStream stream) {
 		ChatStream.currentStreams.put(uuid,stream);
 	}
 

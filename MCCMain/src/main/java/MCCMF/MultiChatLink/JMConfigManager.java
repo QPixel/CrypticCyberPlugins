@@ -1,5 +1,9 @@
-package com.olivermartin410.plugins;
+package MCCMF.MultiChatLink;
 
+
+import net.md_5.bungee.config.Configuration;
+import net.md_5.bungee.config.ConfigurationProvider;
+import net.md_5.bungee.config.YamlConfiguration;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,12 +11,7 @@ import java.io.InputStream;
 import java.nio.file.CopyOption;
 import java.nio.file.Files;
 
-import MCCMF.MultiChatLink.MultiChat;
-import net.md_5.bungee.config.Configuration;
-import net.md_5.bungee.config.ConfigurationProvider;
-import net.md_5.bungee.config.YamlConfiguration;
-
-public class ConfigManager
+public class JMConfigManager
 {
   Configuration config;
   int counter;
@@ -21,16 +20,16 @@ public class ConfigManager
   {
     try
     {
-      File file = new File(MultiChat.ConfigDir, "config.yml");
+      File file = new File(MultiChat.ConfigDir, "joinmessages.yml");
       if (!file.exists())
       {
-        System.out.println("[MultiChat] Config.yml not found, creating!");
+        System.out.println("[MultiChat] joinmessages.yml not found, creating!");
         saveDefaultConfig();
         loadConfig();
       }
       else
       {
-        System.out.println("[MultiChat] Config.yml already exists, loading!");
+        System.out.println("[MultiChat] joinmessages.yml already exists, loading!");
         loadConfig();
       }
     }
@@ -44,10 +43,10 @@ public class ConfigManager
   {
     try
     {
-      InputStream in = getClass().getClassLoader().getResourceAsStream("config.yml");Throwable localThrowable3 = null;
+      InputStream in = getClass().getClassLoader().getResourceAsStream("joinmessages.yml");Throwable localThrowable3 = null;
       try
       {
-        Files.copy(in, new File(MultiChat.ConfigDir, "config.yml").toPath(), new CopyOption[0]);
+        Files.copy(in, new File(MultiChat.ConfigDir, "joinmessages.yml").toPath(), new CopyOption[0]);
       }
       catch (Throwable localThrowable1)
       {
@@ -81,7 +80,7 @@ public class ConfigManager
   {
     try
     {
-      this.config = ConfigurationProvider.getProvider(YamlConfiguration.class).load(new File(MultiChat.ConfigDir, "config.yml"));
+      this.config = ConfigurationProvider.getProvider(YamlConfiguration.class).load(new File(MultiChat.ConfigDir, "joinmessages.yml"));
     }
     catch (IOException e)
     {

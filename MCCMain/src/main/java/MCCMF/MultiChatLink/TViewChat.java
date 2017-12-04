@@ -1,4 +1,4 @@
-package com.olivermartin410.plugins;
+package MCCMF.MultiChatLink;
 
 import java.io.Serializable;
 import java.util.ArrayList;

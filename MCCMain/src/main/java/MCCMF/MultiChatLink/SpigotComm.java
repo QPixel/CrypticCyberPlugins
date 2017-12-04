@@ -10,10 +10,10 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.RegisteredServiceProvider;
-import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.plugin.messaging.PluginMessageListener;
 import org.bukkit.plugin.messaging.PluginMessageRecipient;
 import org.bukkit.scheduler.BukkitRunnable;
+import MCCMF.Main.Main;
 
 import java.io.*;
 import java.util.HashMap;
@@ -21,8 +21,7 @@ import java.util.Map;
 import java.util.UUID;
 
 public class SpigotComm
-extends JavaPlugin
-implements PluginMessageListener, Listener
+		implements PluginMessageListener, Listener
 {
 
 	public static Map<UUID,String> nicknames = new HashMap<UUID,String>();

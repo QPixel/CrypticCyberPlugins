@@ -13,6 +13,7 @@ public class Main extends JavaPlugin implements Listener {
         getCommand(commands.cmd1).setExecutor(commands);
         getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "\n\nMCCMainFrame has been Enabled\n\n");
         getServer().getPluginManager().registerEvents(new EventsClass(), this);
+        getServer().getPluginManager().
         loadConfig();
 
 
