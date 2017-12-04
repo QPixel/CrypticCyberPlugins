@@ -7,48 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="855b54c3-9996-4948-9eb7-24cbd8faaa1e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/ACCCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/ACCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/AnnouncementCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/BulletinCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/BungeeComm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/CastCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/ClearChatCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/ConfigManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/DisplayCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/FreezeChatCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/GCCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/GlobalCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/GroupCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/GroupListCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/HelpMeCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/LocalCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/MCCCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/MCCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/MsgCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/MultiChatCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/ReplyCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/SocialSpyCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/SpigotComm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/StaffListCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/UseCastCommand.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/Announcements.java" afterPath="$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/Announcements.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/Bulletins.java" afterPath="$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/Bulletins.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/CastControl.java" afterPath="$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/CastControl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/ChatManipulation.java" afterPath="$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/ChatManipulation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/ChatStream.java" afterPath="$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/ChatStream.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/GroupManager.java" afterPath="$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/GroupManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/JMConfigManager.java" afterPath="$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/JMConfigManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/StaffChatManager.java" afterPath="$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/StaffChatManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/TChatInfo.java" afterPath="$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/TChatInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/TGroupChatInfo.java" afterPath="$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/TGroupChatInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/TViewChat.java" afterPath="$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/TViewChat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/olivermartin410/plugins/UUIDNameManager.java" afterPath="$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/UUIDNameManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MultiChat/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MCCMF/Main/Main.java" afterPath="$PROJECT_DIR$/src/main/java/MCCMF/Main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/MultiChat.java" afterPath="$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/MultiChat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/SpigotComm.java" afterPath="$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/SpigotComm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bungee.yml" afterPath="$PROJECT_DIR$/src/main/java/bungee.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MultiChat/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MultiChat/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MultiChat/MultiChat.iml" afterPath="$PROJECT_DIR$/../MultiChat/MultiChat.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MultiChat/pom.xml" afterPath="$PROJECT_DIR$/../MultiChat/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,16 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StaffChatManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/StaffChatManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ChatManipulation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/ChatManipulation.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,11 +86,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MCCMF/Main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="861">
+              <caret line="80" column="19" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="80" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -470,7 +433,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18541667" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18541667" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -664,14 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/MultiChatRawDataListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -777,7 +732,7 @@
         <state relative-caret-position="969">
           <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -900,6 +855,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="80" column="19" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="80" selection-end-column="19" />
           <folding />
         </state>
       </provider>
