@@ -7,8 +7,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="855b54c3-9996-4948-9eb7-24cbd8faaa1e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/CastCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/MCCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/UUIDNameManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/UseCastCommand.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/ACCCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/ACCCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/ACCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/ACCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/AnnouncementCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/AnnouncementCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/Announcements.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/Announcements.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/BulletinCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/BulletinCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/Bulletins.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/Bulletins.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/BungeeComm.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/BungeeComm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/CastControl.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/CastControl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/ChatManipulation.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/ChatManipulation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/ChatStream.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/ChatStream.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/ClearChatCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/ClearChatCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/ConfigManager.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/ConfigManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/DisplayCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/DisplayCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/Events.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/Events.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/FreezeChatCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/FreezeChatCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/GCCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/GCCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/GlobalCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/GlobalCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/GroupCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/GroupCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/GroupListCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/GroupListCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/GroupManager.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/GroupManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/HelpMeCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/HelpMeCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/JMConfigManager.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/JMConfigManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/LocalCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/LocalCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/MCCCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/MCCCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/MsgCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/MsgCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/MultiChat.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/MultiChat.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/MultiChatCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/MultiChatCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/MultiChatRawDataListener.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/MultiChatRawDataListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/ReplyCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/ReplyCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/SocialSpyCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/SocialSpyCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/SpigotComm.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/SpigotComm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/SpongeComm.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/SpongeComm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/StaffChatManager.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/StaffChatManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/StaffListCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/StaffListCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/TChatInfo.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/TChatInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/TGroupChatInfo.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/TGroupChatInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/TViewChat.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/TViewChat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MultiChat/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MultiChat/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MultiChat/MultiChat.iml" afterPath="$PROJECT_DIR$/../MultiChat/MultiChat.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MultiChat/src/main/resources/bungee.yml" afterPath="$PROJECT_DIR$/../MultiChat/src/main/resources/bungee.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MultiChat/src/main/resources/plugin.yml" afterPath="$PROJECT_DIR$/../MultiChat/src/main/resources/plugin.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -161,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="384" />
@@ -416,7 +459,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
