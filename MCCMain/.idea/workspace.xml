@@ -7,6 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="855b54c3-9996-4948-9eb7-24cbd8faaa1e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AntiCheatAPI-1.5/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AntiCheatAPI-1.5/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AntiCheatAPI-1.5/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AntiCheatAPI-1.5/AntiCheatBase.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/MCCAntiCheat.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -95,8 +104,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
-              <caret line="80" column="19" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="80" selection-end-column="19" />
+            <state relative-caret-position="1326">
+              <caret line="78" column="35" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="80" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -184,10 +193,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,97 +201,20 @@
               <item name="MCCMain" type="b2602c69:ProjectViewProjectNode" />
               <item name="MCCMain" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MCCMain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MCCMain" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MCCMain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MCCMain" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MCCMain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MCCMain" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="MCCPlugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MCCMain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MCCMain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MCCMain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MCCMain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MCCMain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MCCMain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MCCMain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MCCMain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MCCMF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MCCMain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MCCMain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MCCMF" type="462c0819:PsiDirectoryNode" />
-              <item name="Commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MCCMain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MCCMain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MCCMF" type="462c0819:PsiDirectoryNode" />
-              <item name="Events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MCCMain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MCCMain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MCCMF" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MCCMain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MCCMain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MCCMF" type="462c0819:PsiDirectoryNode" />
-              <item name="MultiChatLink" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="D:/Riley/Downloads/spongeapi-5.2.0-20170814.172003-8-shaded.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AntiCheatAPI-1.5" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -812,8 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="80" column="19" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="80" selection-end-column="19" />
+        <state relative-caret-position="1326">
+          <caret line="78" column="35" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="80" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -877,6 +806,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
