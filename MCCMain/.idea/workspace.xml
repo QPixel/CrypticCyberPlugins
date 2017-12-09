@@ -7,16 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="855b54c3-9996-4948-9eb7-24cbd8faaa1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AntiCheatAPI-1.5/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AntiCheatAPI-1.5/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AntiCheatAPI-1.5/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AntiCheatAPI-1.5/AntiCheatBase.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/MCCAntiCheat.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/libraries/Maven__junit_junit_4_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_10_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/libraries/Maven__org_spigotmc_spigot_1_12_2_R0_1_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/libraries/Maven__org_spigotmc_spigot_api_1_12_pre5_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/libraries/Maven__org_yaml_snakeyaml_1_18.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MCCAntiCheat/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MCCAntiCheat/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MCCAntiCheat/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MCCAntiCheat/MCCAntiCheat.iml" afterPath="$PROJECT_DIR$/../MCCAntiCheat/MCCAntiCheat.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,8 +108,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="78" column="35" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="80" selection-end-column="19" />
+            <state relative-caret-position="884">
+              <caret line="52" column="35" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="80" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -345,6 +349,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -741,8 +746,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="35" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="80" selection-end-column="19" />
+        <state relative-caret-position="884">
+          <caret line="52" column="35" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="80" selection-end-column="19" />
           <folding />
         </state>
       </provider>

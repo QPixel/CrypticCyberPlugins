@@ -1,0 +1,6 @@
+name: MCCAntiCheat
+main: net.horizoncode.anticheat.AntiCheatAPI
+description: an AntiCheatAPI
+version: 2.0
+author: RealQPixel
+depend: [MCCMain, MCCMF]
