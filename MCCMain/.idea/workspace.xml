@@ -7,51 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="855b54c3-9996-4948-9eb7-24cbd8faaa1e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/CastCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/MCCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/UUIDNameManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/UseCastCommand.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/ACCCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/ACCCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/ACCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/ACCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/AnnouncementCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/AnnouncementCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/Announcements.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/Announcements.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/BulletinCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/BulletinCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/Bulletins.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/Bulletins.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/BungeeComm.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/BungeeComm.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/CastControl.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/CastControl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/ChatManipulation.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/ChatManipulation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/ChatStream.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/ChatStream.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/ClearChatCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/ClearChatCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/ConfigManager.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/ConfigManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/DisplayCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/DisplayCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/Events.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/Events.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/FreezeChatCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/FreezeChatCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/GCCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/GCCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/GlobalCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/GlobalCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/GroupCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/GroupCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/GroupListCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/GroupListCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/GroupManager.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/GroupManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/HelpMeCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/HelpMeCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/JMConfigManager.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/JMConfigManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/LocalCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/LocalCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/MCCCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/MCCCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/MsgCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/MsgCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/MultiChat.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/MultiChat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/MultiChatCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/MultiChatCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/MultiChatRawDataListener.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/MultiChatRawDataListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/ReplyCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/ReplyCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/SocialSpyCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/SocialSpyCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/SpigotComm.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/SpigotComm.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/SpongeComm.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/SpongeComm.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/StaffChatManager.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/StaffChatManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/StaffListCommand.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/StaffListCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/TChatInfo.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/TChatInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/TGroupChatInfo.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/TGroupChatInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MultiChat/src/main/java/com/olivermartin410/plugins/TViewChat.java" afterPath="$PROJECT_DIR$/../MultiChat/src/main/java/MCCChat/TViewChat.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MultiChat/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MultiChat/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MultiChat/src/main/resources/bungee.yml" afterPath="$PROJECT_DIR$/../MultiChat/src/main/resources/bungee.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MultiChat/src/main/resources/plugin.yml" afterPath="$PROJECT_DIR$/../MultiChat/src/main/resources/plugin.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -107,7 +63,7 @@
       <file leaf-file-name="MultiChat.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/MultiChat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-901">
+            <state relative-caret-position="221">
               <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding />
             </state>
@@ -117,7 +73,7 @@
       <file leaf-file-name="SpigotComm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/SpigotComm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
+            <state relative-caret-position="714">
               <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -139,7 +95,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
+            <state relative-caret-position="776">
               <caret line="80" column="19" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="80" selection-end-column="19" />
               <folding />
             </state>
@@ -204,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="384" />
@@ -228,6 +184,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,10 +279,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -459,8 +415,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -474,7 +429,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18541667" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16145833" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -502,7 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -510,9 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,7 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -573,7 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,7 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,7 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -597,9 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -607,7 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -615,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -654,7 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,9 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="677">
           <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,9 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,9 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -692,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -708,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,9 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,7 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,7 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,7 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,7 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,7 +770,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/MultiChat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
+        <state relative-caret-position="221">
           <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding />
         </state>
@@ -884,7 +794,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MCCMF/MultiChatLink/SpigotComm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
+        <state relative-caret-position="714">
           <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -902,7 +812,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
+        <state relative-caret-position="776">
           <caret line="80" column="19" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="80" selection-end-column="19" />
           <folding />
         </state>
