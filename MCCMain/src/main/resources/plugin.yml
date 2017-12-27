@@ -1,7 +1,8 @@
 name: MCCMF
 main: MCCMF.Main.Main
 version: 1.0
-author:
+author: RealQPixel
+softdepend: [MultiChatBridge]
 
 commands:
      giveitem:
