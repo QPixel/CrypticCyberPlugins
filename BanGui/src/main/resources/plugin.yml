@@ -1,0 +1,16 @@
+main: BANGUI.Main.Main
+version: 2.2.1
+name: GUIBanner
+description: A customizeable, user-friendly interface for tempbanning players!
+author: WarpedNova
+authors: [RealQPixel, MCCDEVTEAM]
+softdepend: [LiteBans, MCCMF]
+loadbefore: [LiteBans]
+
+commands:
+    tempban:
+      usage: /tempban <Player_Name>
+      description: Tempbans a player!
+    guireload:
+      usage: /guireload
+      description: Reloads the configuration file!

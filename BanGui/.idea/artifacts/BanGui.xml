@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BanGui">
+    <output-path>D:/Riley/Downloads/Test Server/plugins</output-path>
+    <root id="archive" name="BanGui.jar">
+      <element id="module-output" name="BanGui" />
+    </root>
+  </artifact>
+</component>
