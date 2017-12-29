@@ -5,7 +5,7 @@ import java.util.List;
 import BANGUI.Main.Main;
 import BANGUI.Commands.Tempban;
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
+import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -16,6 +16,7 @@ import org.bukkit.inventory.InventoryHolder;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
+
 public class TempbanScreen implements Listener{
     private Main main;
 
@@ -24,7 +25,7 @@ public class TempbanScreen implements Listener{
     }
 
     public final void openTempbanOptionScreen(Player player) {
-        Inventory inv = Bukkit.createInventory((InventoryHolder)null, 18, ChatColor.AQUA + "Tempban " + Tempban.targetPlayer);
+        Inventory inv = Bukkit.createInventory((InventoryHolder)null, 36, ChatColor.AQUA + "Tempban " + Tempban.targetPlayer);
         List<String> Button1Lore = Arrays.asList(ChatColor.GOLD + "Temp Ban", ChatColor.GOLD + this.main.getConfig().getString("TempBanTimes.Hacks.Button1"));
         List<String> Button2Lore = Arrays.asList(ChatColor.GOLD + "Temp Ban", ChatColor.GOLD + this.main.getConfig().getString("TempBanTimes.Hacks.Button2"));
         List<String> Button3Lore = Arrays.asList(ChatColor.GOLD + "Temp Ban", ChatColor.GOLD + this.main.getConfig().getString("TempBanTimes.Hacks.Button3"));

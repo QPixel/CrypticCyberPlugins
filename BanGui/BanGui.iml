@@ -5,6 +5,7 @@
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <javadoc-paths>
       <root url="https://hub.spigotmc.org/javadoc/spigot" />
+      <root url="jar://D:/Riley/Downloads/spigot-api-1.12-R0.1-20170728.072555-65-javadoc.jar!/" />
     </javadoc-paths>
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />

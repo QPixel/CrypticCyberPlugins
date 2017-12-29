@@ -1,17 +1,21 @@
 package BANGUI.Main;
 
 import java.io.File;
+
+import BANGUI.Commands.BanGuiConfig;
+import BANGUI.Commands.Commands;
+import BANGUI.Commands.GuiCommand;
 import BANGUI.Commands.Tempban;
 import BANGUI.Events.SelectionScreen;
 import BANGUI.Events.TempbanScreen;
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
+import net.md_5.bungee.api.ChatColor;
 
 
 
@@ -28,8 +32,12 @@ public class Main extends JavaPlugin implements Listener {
     }
 
     public void onEnable() {
-        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "\n\nMCCBANGUI has been Enabled\n\n");
+        getServer().getConsoleSender().sendMessage(net.md_5.bungee.api.ChatColor.GREEN + "\n\nMCCBANGUI has been Enabled\n\n");
         this.getCommand("tempban").setExecutor(new Tempban(this));
+        this.getCommand("bangui").setExecutor(new BanGuiConfig(this));
+        this.getCommand("ban").setExecutor(new Tempban(this));
+        this.getCommand("forceban").setExecutor(new Commands(this));
+        this.getCommand("gui").setExecutor(new GuiCommand(this));
         Bukkit.getPluginManager().registerEvents(new TempbanScreen(this), this);
         Bukkit.getPluginManager().registerEvents(new SelectionScreen(new TempbanScreen(this)), this);
         Bukkit.getPluginManager().registerEvents(new InventoryStealPrevention(), this);
@@ -41,7 +49,7 @@ public class Main extends JavaPlugin implements Listener {
     }
 
     public void onDisable() {
-        getServer().getConsoleSender().sendMessage(ChatColor.RED + "\n\nMCCBANGUI has been Disabled\n\n");
+        getServer().getConsoleSender().sendMessage(net.md_5.bungee.api.ChatColor.RED + "\n\nMCCBANGUI has been Disabled\n\n");
     }
 
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {

@@ -28,7 +28,7 @@ Messages:
 #DO NOT CHANGE THIS!
 
     NoAccess: 'Sorry, you do not have access to that command!'
-    InvalidUsage: 'Usage: /tempban <Player_Name>'
+    InvalidUsage: 'Usage: /tempban '
     ReloadMessage: 'The Config File Has Been Reloaded!'
 
 #DO NOT CHANGE THIS!
@@ -87,5 +87,7 @@ TempBanTimes:
 OnBanCommand:
 
    Command: 'smite %targetplayer%'
+
+   Command: 'ac %player% Banned %targetplayer% for %reason%'
 
 
