@@ -1,0 +1,28 @@
+main: BANGUI.Main.Main
+version: 2.2.2
+name: BANGUI
+description: A customizeable, user-friendly interface for tempbanning players!
+author: WarpedNova
+authors: [RealQPixel, MCCDEVTEAM]
+softdepend: [LiteBans, MCCMF, MaxBans, AdvancedBans]
+loadbefore: [LiteBans, MaxBans, AdvancedBans]
+
+commands:
+    tempban:
+      usage: /tempban
+      description: Tempbans a player!
+    guireload:
+      usage: /guireload
+      description: Reloads the configuration file!
+    Gui:
+      usage: /Gui
+      description: Opens a Gui!
+    BanGui:
+      usage: /BanGui
+      description: Command for config
+    ForceBan:
+      usage: /ForceBan <Player>
+      description: Forcebans a player without Gui!
+    Ban:
+      usage: /Ban
+      description: Bans a Player!
