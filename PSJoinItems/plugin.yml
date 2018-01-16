@@ -1,0 +1,5 @@
+name: PSJoinItems
+version: 2.1-b4
+main: net.cakemine.psjoinitems.PSJoinItems
+author: Absentee23
+depend: [PlayerServers]

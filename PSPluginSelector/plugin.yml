@@ -1,0 +1,10 @@
+name: PSPluginSelector
+version: 1.5-b86
+main: net.cakemine.playerservers.pluginselector.PluginSelector
+author: Absentee23
+depend: [PlayerServers]
+commands:
+  plugin:
+    description: Manage plugins.
+    aliases: [pluginselector,pl]
+    usage: Type /plugin help

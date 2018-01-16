@@ -1,0 +1,10 @@
+name: PSFeaturedServers
+version: 2.2-b43
+main: net.cakemine.psfeaturedservers.bukkit.PSFeaturedServers
+author: Absentee23
+depend: [PlayerServers]
+commands:
+  featuredservers:
+    description: Show featured servers, or add/remove them.
+    aliases: [featuredservers, premiumservers, featservers, pservers, fservers, fsrv]
+    usage: Type /featuredservers help

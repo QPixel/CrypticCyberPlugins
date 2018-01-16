@@ -1,0 +1,17 @@
+join:
+    slot: 8
+    material: GRASS
+    durability: 0
+    quantity: 1
+    name: "&e&l&oJoin a PlayerServer."
+    lore: "Click here to join||an available PlayerServer."
+    command: "/ps join"
+
+control:
+    slot: 7
+    material: SIGN
+    durability: 0
+    quantity: 1
+    name: "&a&l&oMy PlayerServer"
+    lore: "Click here to control||your PlayerServer."
+    command: "/ps"

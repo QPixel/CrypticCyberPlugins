@@ -1,0 +1,5 @@
+name: PSFeaturedServers
+main: net.cakemine.psfeaturedservers.bungee.PSFeaturedServers
+version: 2.2-b43
+author: Absentee23
+depends: [PlayerServers]

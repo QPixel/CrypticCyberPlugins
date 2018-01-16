@@ -1,0 +1,13 @@
+plugins-folder: '/path/to/plugins/folder/'
+reload-after-changes: false
+max-enabled-plugins: -1
+selector-gui-icon: COMMAND
+selector-gui-icon-durability: 0
+selector-gui-icon-name: '&e&o&lClick to select plugins'
+selector-gui-icon-lore: '&e&oHere you can enable/disable||&e&oplugins you want.'
+auto-scan-plugins: true
+plugin-copied-msg: '&a&l%plugin-name% installed!'
+plugin-removed-msg: '&c&l%plugin-name% removed!'
+max-plugins-msg: '&c&lMaximum plugins reached!'
+plugin-list-msg: '&b&lAvailable plugins: &e&o(Enter name exactly as listed)'
+plugins: {}

@@ -1,0 +1,3 @@
+featured-gui-title: "&5&lFeatured Servers &0&l»"
+featured-item-name: "&e&o&l%server-name%"
+featured-item-lore: "Click here to join||%player%'s server.||Players: &e&o%current-players%/%max-players%||MOTD: &e&o%motd%||Whitelist: %whitelist%"
