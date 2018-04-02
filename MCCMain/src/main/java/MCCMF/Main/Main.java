@@ -14,7 +14,7 @@ public class Main extends JavaPlugin implements Listener {
         getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "\n\nMCCMainFrame has been Enabled\n\n");
         getServer().getPluginManager().registerEvents(new EventsClass(), this);
         getServer().getPluginManager().
-        loadConfig();
+
 
 
     }
@@ -23,10 +23,7 @@ public class Main extends JavaPlugin implements Listener {
         getServer().getConsoleSender().sendMessage(ChatColor.RED + "\n\nMCCMainFrame has been Disabled\n\n");
     }
 
-    public void loadConfig(){
-        getConfig().options().copyDefaults(true);
-        saveConfig();
-    }
+
 
 }
 
